@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Воркеры</title>
+</head>
+<body>
+<div class="flex">
+    <div class="blue"></div>
+    <div class="green"></div>
+</div>
+    <button id="local">Запустить вычесление локально</button>
+
+    <button id="worker">Отправить воркеру на выполнение</button>
+
+    <h1></h1>
+
+    <script src="./script.js"></script>
+
+    <style>
+        .flex{
+            display: flex;
+            justify-content: space-around;
+        }
+        .blue,
+        .green {
+            width: 200px;
+            height: 200px;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .green{
+            background-color: green;
+        }
+        .blue:hover{
+            background-color: red;
+        }
+        .green:hover{
+            background-color: yellow;
+        }
+    </style> 
+</body>
+</html>
